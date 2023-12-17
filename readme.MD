@@ -1,54 +1,54 @@
-# Metamask wallet connection to the Frontend
+# MetaMask Wallet Connection for Frontend
 
-## Description
+## Overview
 
-This project is a frontend that connects to MetaMask, allowing users to interact with a smart contract. It provides functionalities to set numbers, perform calculations, and store the text on the Ethereum network.
+This repository contains a frontend application designed to integrate seamlessly with MetaMask, enabling users to engage with a smart contract. The application facilitates the setting of numbers, executing calculations, and storing text on the Ethereum network.
 
 ## Getting Started
 
-To get started with the project, follow the instructions below:
+To begin using this project, adhere to the instructions outlined below:
 
 ### Prerequisites
 
-- Node.js and npm should be installed on your machine.
-- MetaMask extension should be installed in your web browser.
+- Ensure that Node.js and npm are installed on your machine.
+- Have the MetaMask extension installed in your web browser.
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/Aum2405/Metamask-connection.git`
-2. Change to the project directory: `cd Front`
-3. Install the dependencies: `npm install`
+1. Clone the repository: https://github.com/NeelBareja/Front-end-with-metamask.git
+2. Install the required dependencies: npm install
+
 
 ### Executing Program
 
-### Executing Program
+### Running the Program
 
-Follow the steps below to execute the program:
+Proceed with the following steps to execute the program:
 
-1. Open three separate terminals in Visual Studio Code.
-2. In the first terminal, run: `npm i`
-3. In the second terminal, run: `remixd`
-4. In the third terminal, run: `npx hardhat node`
-5. Open Remix IDE by visiting the website [https://remix.ethereum.org/](https://remix.ethereum.org/) and connect to `localhost`.
-6. Connect MetaMask to the Hardhat server:
-   - In the MetaMask extension, click on the network selection dropdown (top-right corner).
-   - Select "Custom RPC".
-   - Enter `http://localhost:8545` as the RPC URL and save it.
-   - Enter `31337` as the Chain ID.
-   - Import an account or create a new one in MetaMask and switch to it.
-7. Open the `Solidity-Frontend.sol` file.
-8. Change the environment to `hardhat network`.
-9. Compile and deploy the smart contract.
-10. Copy the contract address and paste it into the `MyCustomMetamask.jsx` file as the value of the `contractAddress` variable.
-11. Run the development server: `npm run dev`
-12. Go to [http://localhost:5173/](http://localhost:5173/) in your web browser.
-13. Click on the "Connect to MetaMask" button.
-14. Enter a number in the input field and click on "Set".
-15. Click on "Sum" or "Difference" to get the result.
-16. Enter some text in the input field and click on "Submit".
-17. Click on "Show" to see the stored text.
+Open three separate terminals in Visual Studio Code.
+In the first terminal, run: npm i
+In the second terminal, execute: remixd
+In the third terminal, run: npx hardhat node
+Access Remix IDE by visiting https://remix.ethereum.org/ and connecting to localhost.
+Connect MetaMask to the Hardhat server:
+Within the MetaMask extension, click the network selection dropdown (top-right corner).
+Choose "Custom RPC form Ganacha".
+Input http://localhost:7545 as the RPC URL and save it.
+Set 3137 as the Chain ID.
+Import an account or create a new one in MetaMask and switch to it.
+Open the contract.sol file.
+Adjust the environment to the hardhat network.
+Compile and deploy the smart contract on https://remix.ethereum.org.
+Copy the contract address and paste it into the MyCustomMetamask.jsx file, setting the value of the contractAddress variable.
+Run the development server: npm run dev
+Navigate to http://localhost:5173/ in your web browser.
+Click on the "Connect to MetaMask" button.
+Input a number in the provided field and click "Enter".
+Utilize "Addition" or "Division" to obtain the result.
+Enter text in the input field and click "Enter".
+Click "Show" to view the stored text.
 
-## Crafter
+## Developer
 
-- Aum Patel
-- GitHub: [https://github.com/Aum2405](https://github.com/Aum2405)
+- Neel Bareja
+- GitHub: [https://github.com/NeelBareja]
